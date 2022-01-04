@@ -2,11 +2,14 @@
 
 ## Scripts
 ```
-	npm run dev-windows
-	npm run dev
+    npm run dev-windows
+```
+```
+    npm run dev
 ```
 
-Permite trabajar en entorno de desarrollo donde podemos ver automaticamente los cambios al trabajar con PUG y SASS.
+Permite trabajar en entorno de desarrollo donde podemos ver automáticamente los cambios al trabajar con PUG y SASS. Utiliza el comando dependiendo de tu sistema operativo.
+
 ```
     npm run prod
 ```
