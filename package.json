@@ -1,0 +1,18 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass --watch sass/style.scss:public/css/style.css",
+    "pug-watch": "pug pug/ --out ./public --watch --pretty",
+    "sass-watch-compressed": "sass sass/style.scss:public/css/style.css --style compressed",
+    "pug-watch-compressed": "pug pug/ --out ./public",
+    "dev": "npm run sass-watch & npm run pug-watch",
+    "dev-windows": "start npm run sass-watch && start npm run pug-watch",
+    "prod": "npm run sass-watch-compressed && npm run pug-watch-compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
