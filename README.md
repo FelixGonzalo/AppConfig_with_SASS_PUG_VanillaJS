@@ -12,12 +12,18 @@ Permite trabajar en entorno de desarrollo donde podemos ver automaticamente los 
 
 Permite compilar y minificar los archivos generados por PUG y SASS.
 
-### NOTAS
+### Notas
 
 * Los archivos generados .css se guardan en public/css
 * los archivos generados .html se guardan en public/
-* Evitar la eliminación de la carpeta public puesto que debe almacenar otros recursos como imágenes en public/assets.
+* Evitar la eliminación de la carpeta public puesto que debe almacenar otros recursos como imágenes en public/assets y el archivo .htaccess.
 * Eliminar dentro de la carpeta public a la carpeta css y los archivos .html cuando se necesite limpiar y volver a generar desde cero.
+
+* Dependencias globales para que funcionen los scripts
+
+      `npm install -g sass`
+
+      `npm install pug-cli -g`
 
 ## Correr aplicación
 
