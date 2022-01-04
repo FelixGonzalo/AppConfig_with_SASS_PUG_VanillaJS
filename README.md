@@ -1,15 +1,15 @@
 # Configuración base para una app con SASS, PUG Y Vanilla JS
 
 ## Scripts
-
-### `npm run dev-windows`
-
-### `npm run dev`
+```
+	npm run dev-windows
+	npm run dev
+```
 
 Permite trabajar en entorno de desarrollo donde podemos ver automaticamente los cambios al trabajar con PUG y SASS.
-
-### `npm run prod`
-
+```
+    npm run prod
+```
 Permite compilar y minificar los archivos generados por PUG y SASS.
 
 ### Notas
@@ -21,10 +21,11 @@ Permite compilar y minificar los archivos generados por PUG y SASS.
 
 * Dependencias globales para que funcionen los scripts
 
-      `npm install -g sass`
+```
+    npm install -g sass
 
-      `npm install pug-cli -g`
-
+    npm install pug-cli -g
+```
 ## Correr aplicación
 
 Recuerde que debe haber generado los archivos .html y la carpeta css dentro de public.
